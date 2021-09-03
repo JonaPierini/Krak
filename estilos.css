@@ -189,12 +189,11 @@
 /* Seccion Tres - Cuatro - Cinco */
 
 .sectionTres{
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px;
 }
 
 .sectionTresImg img{
