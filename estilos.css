@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;700;800&display=swap');
-
-body{
-    font-family: 'Khula', sans-serif
-}
-
 .header{
     background-image: url(Imagenes/imagenPrincipal.jpeg);
     height: 700px;
@@ -25,6 +19,8 @@ body{
 
 .nav-link{
     color: #ffffff !important;
+    font-family: "Gilroy SemiBold";
+    font-size: 18px
 }
 
 .botonContacto{
@@ -49,6 +45,7 @@ body{
     color: #ffffff;
     font-size: 90px;
     line-height: 90px;
+    font-family: "Gilroy ExtraBold"
 }
 
 
@@ -64,7 +61,8 @@ body{
 .parrafoHeader{
     color: #ffffff;
     font-size: 30px;
-    line-height: 35px
+    line-height: 35px;
+    font-family: "Gilroy SemiBold"
 }
 
 .botonEmpecemosDiv{
@@ -103,7 +101,7 @@ body{
 }
 
 .ocean { 
-    height: 150px;
+    height: 180px;
     width:100%;
     overflow: hidden;
     position: absolute;
@@ -156,12 +154,68 @@ body{
     }
   }
 
-section{
-    margin-top: 500px;
+/* Seccion Dos */
+.sectionDos{
+    width: 100%;
+    margin-top: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.sectionDos p{
+    width: 1320px;
+    font-family: "Gilroy ExtraBold";
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    background: linear-gradient(88.4deg, #4A148C 8.51%, #E91E63 71.81%, #FC6B5F 89.11%);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+/* Seccion Tres - Cuatro - Cinco */
+
+.sectionTres{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.sectionTresImg img{
+    width: 520px;
+    height: 470px;
+}
+
+.sectionTresTexto{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
 }
 
 
+.sectionTresTexto h2{
+    
+    font-family: "Gilroy ExtraBold";
+    font-size: 72px;
+    line-height: 84px;
+    color: #4A148C;
+}
 
+.sectionTresTexto p{
+    text-align: justify;
+    font-family: "Gilroy";
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0em;
+
+}
 
 
 
