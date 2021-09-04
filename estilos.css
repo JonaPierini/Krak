@@ -105,12 +105,6 @@
     top: 300px;
 }
 
-.ola{
-    width: 100%;
-    top: 600px;
-    position:absolute;
-}
-
 .ocean { 
     height: 180px;
     width:100%;
@@ -228,16 +222,29 @@
 }
 
 
+.sectionSeis{
+    margin-top: 100px;
+    background-image: url(Imagenes/imagenPrincipal.jpeg);
+    height: 550px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 500px;
+}
 
 
+.sectionSeisOlaTop{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
 
 
-
-
-
-
-
-
+.sectionSeisOlaBottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+}
 
 
 
