@@ -330,7 +330,7 @@
 }
 
 
-/* Clientes */
+/* Seccition Siete - Clientes */
   
 .sectionSieteClientesTitulo h2{
   margin-top: 100px;
@@ -345,7 +345,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  height: 400px;
   justify-content: center;
 }
 
@@ -411,9 +411,22 @@
   }
 
 
+/* Section Ocho */
+.sectionOchoTitulo{
+  font-family: "Gilroy ExtraBold";
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #4A148C;
+  margin-bottom: 100px;
+}
 
-
-
+.sectionOcho{
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
