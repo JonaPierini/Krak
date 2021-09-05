@@ -331,14 +331,25 @@
 
 
 /* Clientes */
+  
+.sectionSieteClientesTitulo h2{
+  margin-top: 100px;
+  font-family: "Gilroy ExtraBold";
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #4A148C;
+}
 
 .sectionSieteClientes {
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-  }
-  
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+}
+
+
   @-webkit-keyframes scroll {
     0% {
       transform: translateX(0);
