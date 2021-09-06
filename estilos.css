@@ -4,10 +4,12 @@
 
 @import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
 
+@import url(//db.onlinewebfonts.com/c/17bcb89611a026bb2c02b1e38e1a3a90?family=SF+UI+Display);
 
 @font-face {font-family: "Gilroy"; src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot"); src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff") format("woff"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy") format("svg"); }
 @font-face {font-family: "Gilroy ExtraBold"; src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg"); }
 @font-face {font-family: "Gilroy SemiBold"; src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"); src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff") format("woff"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy SemiBold") format("svg"); }
+@font-face {font-family: "SF UI Display"; src: url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.eot"); src: url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.woff") format("woff"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.svg#SF UI Display") format("svg"); }
 
 .header{
     background-image: url(Imagenes/imagenPrincipal.jpeg);
@@ -423,11 +425,86 @@
 
 .sectionOcho{
   display: flex;
-  flex: wrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 480px;
   align-items: center;
+  margin-bottom: 300px;
 }
 
+.sectionOchoUno, .sectionOchoDos, .sectionOchoTres{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  border-radius: 20px;
+}
+
+.sectionOchoUno h3, .sectionOchoDos h3, .sectionOchoTres h3{
+  width: 364px;
+  height: 85px; 
+  background: #4A148C;
+  border-radius: 21px;
+  font-family: "Gilroy ExtraBold";
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionOchoUno p, .sectionOchoDos p, .sectionOchoTres p{
+  width: 356px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 144.84%;
+  /* or 35px */
+  text-align: center;
+  color: #4A148C;
+}
+
+.sectionOcho a{
+  width: 301.39px;
+  height: 71px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: rgb(246, 86, 96);
+  border-radius: 21px;
+  color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Gilroy";
+}
+
+
+.sectionOchoUno:hover, .sectionOchoDos:hover, .sectionOchoTres:hover{
+  cursor: pointer;
+  width: 420px;
+  height: 544px;
+  background: #F90C65;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
 
 
 
