@@ -444,6 +444,9 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
   border-radius: 20px;
+  transition: all 1.2s ease;
+ 
+
 }
 
 .sectionOchoUno h3, .sectionOchoDos h3, .sectionOchoTres h3{
@@ -474,9 +477,16 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 144.84%;
-  /* or 35px */
   text-align: center;
   color: #4A148C;
+}
+
+.sectionOchoUno:hover p, .sectionOchoDos:hover p, .sectionOchoTres:hover p{
+  color: #FFFFFF !important;
+}
+
+.sectionOchoUno:hover h3, .sectionOchoDos:hover h3, .sectionOchoTres:hover h3{
+  background-color: #F90C65;
 }
 
 .sectionOcho a{
@@ -496,7 +506,9 @@
   font-family: "Gilroy";
 }
 
-
+.sectionOchoUno:hover p{
+  color: #FFFFFF;
+}
 .sectionOchoUno:hover, .sectionOchoDos:hover, .sectionOchoTres:hover{
   cursor: pointer;
   width: 420px;
@@ -504,7 +516,11 @@
   background: #F90C65;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  
 }
+
+
+
 
 
 
