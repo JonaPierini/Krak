@@ -164,19 +164,16 @@
 /* Section Uno */
 
 .carousel {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 200px;
-  width: 100%;
   display: block;
   font-size: 0;
+  border-radius: 8px;
+  padding: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   background: white;
   transform: translateZ(0);
-  height: 489px;
+  height: 420px;
   -webkit-overflow-scrolling: touch;
   /* for tablets */
-  
 }
 .touch .carousel {
   overflow: auto;
@@ -222,7 +219,7 @@
   width: 50px;
   font-size: 80px;
   text-indent: -30px;
-  line-height: 489px;
+  line-height: 200px;
   font-family: monospace;
   color: #555;
   font-weight: bold;
@@ -239,7 +236,7 @@
 .carousel > .wrap > ul {
   list-style: none;
   white-space: nowrap;
-  height: 489px;
+  height: 420px;
 }
 .carousel > .wrap > ul > li {
   display: inline-block;
@@ -263,9 +260,25 @@
   transition: 1s ease;
 }
 
-.wrap ul li img {
-  width: 400px;
-  height: 489px;
+body {
+  background: #EEE;
+}
+
+.carousel {
+  /* position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+  width: 100%;
+  max-width: 1900px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.wrap ul li img{
+  width: 420px;
+  height: 490px;
 }
 
 /* Seccion Dos */
