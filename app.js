@@ -12,3 +12,4 @@ duplicateElement({
 
 // VIEWPORT DETAILS BANNER !!!!! imported in settings > js
 // ViewportDetailsBanner();
+
