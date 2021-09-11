@@ -1,15 +1,15 @@
-import { duplicateElement } from "https://codepen.io/tresorama/pen/jOmJyLR.js";
+let items = document.querySelectorAll('.carousel .carousel-item')
 
-// CLONE THE CAROUSEL FOR VARIATIONS
-duplicateElement({
-  selector: ".carousel",
-  times: 3,
-  elementModifierCallback: (el, index) => {
-    el.classList.remove('my-carousel-1');
-    el.classList.add(`my-carousel-${index+2}`);
-  }
-});
-
-// VIEWPORT DETAILS BANNER !!!!! imported in settings > js
-// ViewportDetailsBanner();
-
+items.forEach((el) => {
+    const minPerSlide = 4
+    let next = el.nextElementSibling
+    for (var i=1; i<minPerSlide; i++) {
+        if (!next) {
+            // wrap carousel by using first child
+        	next = items[0]
+      	}
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})

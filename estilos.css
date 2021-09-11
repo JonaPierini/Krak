@@ -164,121 +164,6 @@
 
 /* Section Uno */
 
-/* COMPONENT DEFINITION */
-.carousel {
-  /* INPUTABLE */
-  --padding-top: 3vw;
-  --padding-right: 3vw;
-  --padding-left: 3vw;
-  --padding-bottom: 3vw;
-  --box-width: 26vw;
-  --box-spacer: 3vw;
-  --box-aspect-ratio: 12 / 9;
-  --bg-color: white;
-  --scrollbar-color: lightgrey;
-  --scrollbar-thumb-size: 5px;
-  --border-radius-width: 2px;
-  /* DERIVED -  Do Not Override !! */
-  --box-height: calc(var(--box-width) * var(--box-aspect-ratio));
-  --padding-bottom-base: calc(
-    var(--padding-bottom) - var(--scrollbar-thumb-size)
-  );
-  --padding-bottom-outer: calc(var(--padding-bottom-base) * 0.5);
-  --padding-bottom-inner: calc(var(--padding-bottom-base) * 0.5);
-  /* style */
-  background: var(--bg-color);
-  padding-top: var(--padding-top);
-  padding-right: var(--padding-right);
-  padding-left: var(--padding-left);
-  padding-bottom: var(--padding-bottom-outer);
-  border-radius: var(--border-radius-width);
-}
-
-.carousel__container {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x proximity;
-  padding-bottom: var(--padding-bottom-inner);
-}
-.carousel__container::-webkit-scrollbar {
-  height: var(--scrollbar-thumb-size);
-}
-.carousel__container::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-color);
-  border-radius: 50px;
-  visibility: visible;
-  border-radius: var(--border-radius-width);
-}
-.carousel__container:hover::-webkit-scrollbar-thumb {
-  visibility: visible;
-}
-
-.carousel__box + .carousel__box {
-  margin-left: var(--box-spacer);
-}
-
-.carousel__box {
-  flex-shrink: 0;
-  width: var(--box-width);
-  height: var(--box-height);
-  overflow: hidden;
-  position: relative;
-  border-radius: var(--border-radius-width);
-  scroll-snap-align: start;
-  width: 420px;
-  height: 490px;
-}
-
-.carousel__box img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* THIS CODEPEN IMPLEMENTATION - 1 BASIC STYLE */
-
-
-.container {
-  margin-top: 200px;
-  padding-inline: 2.2vmax;
-  max-width: 1900px;
-  margin-inline: auto;
-}
-@media (min-width: 800px) {
-  .container {
-    padding-inline: 3vmax;
-  }
-}
-
-/* THIS CODEPEN IMPLEMENTATION - 2 CAROUSLE COMPONENT USE */
-.my-carousel-1 {
-  --padding-top: 0vw;
-  --padding-left: 0vw;
-  --padding-right: 0vw;
-  --padding-bottom: 4vw;
-  --box-width: 40vw;
-  --box-spacer: 2vw;
-  --box-aspect-ratio: 12 / 9;
-  --bg-color: transparent;
-  --scrollbar-color: #792871;
-  --scrollbar-thumb-size: 0.5vw;
-  --border-radius-width: 10px;
-  margin-bottom: 1rem;
-}
-
-
-@media (min-width: 800px) {
-  .my-carousel-1 {
-    --box-width: 25vw;
-  }
-}
-@media (min-width: 1000px) {
-  .my-carousel-1 {
-    --box-width: 15vw;
-  }
-}
-
 
 
 /* Seccion Dos */
@@ -463,6 +348,72 @@
   color: #4A148C;
   margin-bottom: 100px;
 }
+
+.my-auto{
+  background-color:rgb(245,244,246);
+}
+
+.card{
+  background-color:rgb(245,244,246);
+  height: 200px;
+  justify-content: center;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.carousel-control-next{
+  justify-content: flex-end;
+} 
+.carousel-control-prev{
+  justify-content: flex-start;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(https://cdn-icons-png.flaticon.com/128/271/271220.png);
+}
+.carousel-control-next-icon {
+  background-image: url(https://cdn-icons-png.flaticon.com/128/271/271228.png);
+}
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
 
 
 /* Section Ocho */
