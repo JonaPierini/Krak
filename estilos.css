@@ -13,7 +13,7 @@
 
 .header{
     background-image: url(Imagenes/imagenPrincipal.jpeg);
-    height: 700px;
+    height: 750px;
     background-size: cover;
     position: relative;
 }
@@ -104,7 +104,7 @@
     height: 550px;
     position: absolute;
     left: -150px;
-    top: 150px;
+    top: 200px;
 }
 
 
@@ -113,7 +113,7 @@
     width:100%;
     overflow: hidden;
     position: absolute;
-    top: 550px;
+    top: 600px;
     left: 0;
   }
   
@@ -164,7 +164,6 @@
 
 /* Section Uno */
 
-
 /* COMPONENT DEFINITION */
 .carousel {
   /* INPUTABLE */
@@ -207,7 +206,7 @@
 .carousel__container::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
   border-radius: 50px;
-  visibility: hidden;
+  visibility: visible;
   border-radius: var(--border-radius-width);
 }
 .carousel__container:hover::-webkit-scrollbar-thumb {
@@ -262,7 +261,7 @@
   --box-spacer: 2vw;
   --box-aspect-ratio: 12 / 9;
   --bg-color: transparent;
-  --scrollbar-color: #e22d2d;
+  --scrollbar-color: #792871;
   --scrollbar-thumb-size: 0.5vw;
   --border-radius-width: 10px;
   margin-bottom: 1rem;
@@ -279,6 +278,7 @@
     --box-width: 15vw;
   }
 }
+
 
 
 /* Seccion Dos */
@@ -461,80 +461,13 @@
   line-height: 84px;
   text-align: center;
   color: #4A148C;
+  margin-bottom: 100px;
 }
-
-.sectionSieteClientes {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  height: 400px;
-  justify-content: center;
-}
-
-
-  @-webkit-keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-250px * 7));
-    }
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-250px * 7));
-    }
-  }
-  .slider {
-    background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-    height: 100px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
-  .slider::before, .slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-    content: "";
-    height: 100px;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-  }
-  .slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-  }
-  .slider::before {
-    left: 0;
-    top: 0;
-  }
-  .slider .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-            animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(350px * 16);
-    text-align: center;
-  }
-  .slider .slide {
-    height: 100px;
-    width: 300px;
-  }
-
-  .slide img{
-      height: 100px;
-      width: 250px;
-  }
 
 
 /* Section Ocho */
 .sectionOchoTitulo{
+  margin-top: 150px;
   font-family: "Gilroy ExtraBold";
   font-size: 72px;
   line-height: 84px;
@@ -564,7 +497,7 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
   border-radius: 20px;
-  transition: all 1.2s ease;
+  transition: all 0.8s ease;
  
 
 }
