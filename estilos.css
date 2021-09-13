@@ -75,7 +75,8 @@
     color: #ffffff;
     font-size: 30px;
     line-height: 35px;
-    font-family: "Gilroy SemiBold"
+    font-family: "Gilroy SemiBold";
+    margin-top: 40px;
 }
 
 .botonEmpecemosDiv{
@@ -164,7 +165,74 @@
 
 /* Section Uno */
 
+.carousel1{
+  margin-top: 200px;
+}
 
+.carousel1__contenedor {
+	position: relative;
+}
+
+.carousel1__anterior,
+.carousel1__siguiente {
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+color: black;
+	opacity: 100%;
+}
+
+.carousel1__anterior:hover,
+.carousel1__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel1__anterior {
+	left: -10px;
+}
+
+.carousel1__siguiente {
+	right: -10px;
+}
+
+.carousel1__lista {
+	overflow: hidden;
+}
+
+.carousel1__elemento {
+	text-align: center;
+}
+
+.carousel1__elemento img{
+  width: 420px;
+  height: 489px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.carousel1__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: black;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel1__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel1__indicadores .glider-dot.active {
+	opacity: 1;
+}
 
 /* Seccion Dos */
 .sectionDos{
