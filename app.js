@@ -3,6 +3,7 @@ window.addEventListener('load', function(){
 	new Glider(document.querySelector('.carousel1__lista'), {
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		draggable:true,
 		dots: '.carousel1__indicadores',
 		arrows: {
 			prev: '.carousel1__anterior',
