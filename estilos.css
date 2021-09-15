@@ -23,6 +23,14 @@
     height: 105px;
 }
 
+.navbar {
+  width: 100%;
+  margin-top: 0;
+  height: 70px;
+  padding: 20px;
+  z-index: 1000;
+  
+}
 
 .navbar-nav{
     width: 100%;
@@ -92,7 +100,7 @@
 }
 
 .botonEmpecemos{
-    background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+    background-color: rgb(239, 57, 97);
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -617,28 +625,46 @@ color: black;
 /* Seccion Seis */
 
 .sectionSeis{
-    margin-top: 200px;
-    background-image: url(Imagenes/imagenPrincipal.jpeg);
-    height: 750px;
-    background-size: cover;
-    position: relative;
+  margin-top: 200px;
+  background-image: url(Imagenes/imagenPrincipal.jpeg);
+  height: 750px;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionSeisOlas{
+  height: 200px;
+}
+
+.waveinvertidaseis{
+background: url(Imagenes/olaBlancainvertida.png) repeat-x; 
+position: absolute;
+width: 6400px;
+height: 200px;
+animation: oladeabajo6 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+transform: translate3d(0, 0, 0);   animation: wave 10s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+transform: translate3d(0, 0, 0);
+}
+.waveseis{
+background: url(Imagenes/olaBlanca.png) repeat-x; 
+position: absolute;
+width: 6400px;
+height: 200px;
+animation: oladeabajo6 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+transform: translate3d(0, 0, 0);   animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+transform: translate3d(0, 0, 0);
+top: 560px;
 }
 
 
-.sectionSeisOlaTop{
-    position: absolute;
-    width: 100%;
-    z-index: 100;
+
+@keyframes oladeabajo6{
+0%{ margin-left: 0 ;}
+100%{
+  margin-left: -6400px;
 }
-
-
-.sectionSeisOlaBottom{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    z-index: 100;
 }
-
 
 /* Seccition Siete - Clientes */
   
@@ -734,6 +760,7 @@ transform: translateX(0);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  height: 480px;
   align-items: center;
   margin-bottom: 300px;
 }
@@ -799,7 +826,7 @@ transform: translateX(0);
   width: 301.39px;
   height: 71px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+  background-color: rgb(246, 86, 96);
   border-radius: 21px;
   color: #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -828,79 +855,10 @@ transform: translateX(0);
 
 /* Section Nueve */
 
-.sectionNueveConteiner{
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.sectionNueveConteinerDos{
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 658px;
-  background: #4A148C;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px
-}
-
-.sectionNueveTitulo h3{
-  position: absolute;
-  top: 20px;
-  left: 40px;
-  font-family: "Gilroy ExtraBold";
-  font-size: 80px;
-  line-height: 98.8%;
-  letter-spacing: 0.005em;
-  color: #F90C65;
-}
-
-.sectionNueveTitulo p{
-  position: absolute;
-  left: 40px;
-  top: 250px;
-  font-family: "Gilroy SemiBold";
-  font-size: 36px;
-  line-height: 42px;
-  color: #FFFFFF;
-}
-
-.sectionNueveTitulo button{
-  position: absolute;
-  padding: 10px;
-  border-radius: 20px;
-  left: 40px;
-  top: 500px;
-  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
-}
 
 
 
-.sectionNueveListaUno{
-  position: absolute;
-  left: 550px;
-}
 
-.sectionNueveListaUnoTexto{
-  font-family: "Gilroy";
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-}
-
-.sectionNueveListaDos{
-  position: absolute;
-  left: 900px;
-}
-
-.sectionNueveListaDosTexto{
-  font-family: "Gilroy";
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-}
 
 
 /* Media */

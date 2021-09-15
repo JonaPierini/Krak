@@ -1,3 +1,26 @@
+//Header
+
+document.addEventListener("scroll", function(){
+	let color =document.getElementById('navbaranimacion');
+	console.log(color)
+	let animacion = document.getElementById("animacionnavbar");
+	let posobj = animacion.getBoundingClientRect().top;
+	console.log(posobj);
+	color.style.position = "fixed";
+	color.style.width="100%";
+	color.style.height="70px";
+	color.style.zIndex="1000";
+	if (posobj>-3) {
+		color.classList.remove("arribaola");
+		color.setAttribute("class", "abajoola");
+		color.style.backgroundColor = "transparent";
+	}
+	if (posobj<-3) {
+		color.classList.remove("abajoola");
+		color.setAttribute("class", "arribaola");
+		color.style.backgroundColor = "#4A148C";
+	}
+})
 // Carrousel Uno
 window.addEventListener('load', function(){
 	new Glider(document.querySelector('.carousel1__lista'), {
