@@ -1,24 +1,41 @@
 //Header
+let colorBoton = document.getElementById("colorContacto")
+	colorBoton.style.backgroundColor = "#4A148C";
+	colorBoton.style.borderRadius = "20px";
+	colorBoton.style.width = "150px";
+	colorBoton.style.textAlign = "center";
+	colorBoton.style.marginLeft = "20px"
+	colorBoton.style.marginRight = "20px"
 
 document.addEventListener("scroll", function(){
 	let color =document.getElementById('navbaranimacion');
-	console.log(color)
 	let animacion = document.getElementById("animacionnavbar");
 	let posobj = animacion.getBoundingClientRect().top;
-	console.log(posobj);
+
+	// Barra
 	color.style.position = "fixed";
 	color.style.width="100%";
-	color.style.height="70px";
+	color.style.height="90px";
 	color.style.zIndex="1000";
+
+	
+
 	if (posobj>-3) {
 		color.classList.remove("arribaola");
 		color.setAttribute("class", "abajoola");
 		color.style.backgroundColor = "transparent";
+
+		let colorBoton = document.getElementById("colorContacto")
+		colorBoton.style.backgroundColor = "#4A148C";
+
 	}
 	if (posobj<-3) {
 		color.classList.remove("abajoola");
 		color.setAttribute("class", "arribaola");
 		color.style.backgroundColor = "#4A148C";
+
+		let colorBoton = document.getElementById("colorContacto")
+		colorBoton.style.backgroundColor = "#F90C65"
 	}
 })
 // Carrousel Uno
