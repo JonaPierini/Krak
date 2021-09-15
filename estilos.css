@@ -23,16 +23,6 @@
     height: 105px;
 }
 
-.navbar {
-  background-color: rgba(135, 6, 122, 0.22);
-  position: fixed;
-  width: 100%;
-  margin-top: 0;
-  height: 70px;
-  padding: 20px;
-  z-index: 1000;
-  
-}
 
 .navbar-nav{
     width: 100%;
@@ -102,7 +92,7 @@
 }
 
 .botonEmpecemos{
-    background-color: rgb(239, 57, 97);
+    background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
     border-radius: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -744,7 +734,6 @@ transform: translateX(0);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 480px;
   align-items: center;
   margin-bottom: 300px;
 }
@@ -810,7 +799,7 @@ transform: translateX(0);
   width: 301.39px;
   height: 71px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background-color: rgb(246, 86, 96);
+  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
   border-radius: 21px;
   color: #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -846,7 +835,7 @@ transform: translateX(0);
 }
 
 .sectionNueveConteinerDos{
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -878,12 +867,40 @@ transform: translateX(0);
   color: #FFFFFF;
 }
 
+.sectionNueveTitulo button{
+  position: absolute;
+  padding: 10px;
+  border-radius: 20px;
+  left: 40px;
+  top: 500px;
+  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+}
 
 
 
+.sectionNueveListaUno{
+  position: absolute;
+  left: 550px;
+}
 
+.sectionNueveListaUnoTexto{
+  font-family: "Gilroy";
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
 
+.sectionNueveListaDos{
+  position: absolute;
+  left: 900px;
+}
 
+.sectionNueveListaDosTexto{
+  font-family: "Gilroy";
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
 
 
 /* Media */
