@@ -636,17 +636,16 @@ position: absolute;
 width: 6400px;
 height: 200px;
 animation: oladeabajo6 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-transform: translate3d(0, 0, 0);   animation: wave 10s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-transform: translate3d(0, 0, 0);
+animation: wave 10s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+
 }
 .waveseis{
 background: url(Imagenes/olaBlanca.png) repeat-x; 
 position: absolute;
 width: 6400px;
 height: 200px;
-animation: oladeabajo6 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-transform: translate3d(0, 0, 0);   animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-transform: translate3d(0, 0, 0);
+animation: oladeabajo6 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;  
+animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
 top: 560px;
 }
 
