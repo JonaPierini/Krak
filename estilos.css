@@ -29,6 +29,7 @@
   height: 70px;
   padding: 20px;
   z-index: 1000;
+  margin-top: 20px;
   
 }
 
@@ -49,7 +50,7 @@
 
 .tituloHeaderDiv{
   position: absolute;
-  top: 250px;
+  top: 150px;
   z-index: 100;
   text-align: center;
   right: 0;
@@ -66,7 +67,7 @@
 
 .parrafoHeaderDiv{
     position: absolute;
-    top: 450px;
+    top: 400px;
     z-index: 100;
     text-align: center;
     right: 0;
@@ -97,11 +98,12 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     color: #ffffff;
-    width: 350px;
+    width: 200px;
     text-align: center;
     font-family: "Gilroy SemiBold";
     font-size: 25px;
     line-height: 42px;
+    border-color: transparent;
 }
 
 
@@ -208,12 +210,9 @@ color: black;
   margin: 10px;
 }
 
-.glider-track{
-  width: 3800px !important;
-}
+
 
 .carousel1__elemento{
-  width: 420px !important;
   height: 489px;
 }
 
@@ -229,7 +228,6 @@ color: black;
 
 .carousel1__titulo1{
   position: absolute;
-  left: 25px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -240,17 +238,15 @@ color: black;
 }
 
 .carousel1__parrafo1{
+  width: 400px;
   position: absolute;
-  width: 335px;
-  height: 29px;
-  left: 42px;
   top: 426px;
   color: #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   font-family: "Gilroy SemiBold";
 }
 
@@ -261,7 +257,6 @@ color: black;
   width: 396px;
   height: 99px;
   top: 74px;
-  left: 444px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
   line-height: 110.3%;
@@ -270,17 +265,15 @@ color: black;
 }
 
 .carousel1__parrafo2{
+  width: 400px;
   position: absolute;
-  width: 220px;
-  height: 29px;
-  left: 515px;
   top: 426px;
   font-family: "Gilroy SemiBold";
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -288,7 +281,6 @@ color: black;
 
 .carousel1__titulo3{
   position: absolute;
-  left: 865px;
   top: 74px;
   color: #FFFFFF;
   text-align: left;
@@ -301,20 +293,20 @@ color: black;
 }
 
 .carousel1__parrafo3{
+  width: 400px;
   position: absolute;
-  left: 908px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 /* Carrousel titulo/parrafo 4 */
 
 .carousel1__titulo4{
   position: absolute;
-  left: 1290px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -326,19 +318,19 @@ color: black;
 
 
 .carousel1__parrafo4{
+  width: 400px;
   position: absolute;
-  left: 1380px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 /* Carrousel titulo/parrafo 5 */
 .carousel1__titulo5{
   position: absolute;
-  left: 1710px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -349,20 +341,20 @@ color: black;
 }
 
 .carousel1__parrafo5{
+  width: 400px;
   position: absolute;
-  left: 1815px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 
 }
 
 /* Carrousel titulo/parrafo 6 */
 .carousel1__titulo6{
   position: absolute;
-  left: 2135px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -373,20 +365,20 @@ color: black;
 }
 
 .carousel1__parrafo6{
+  width: 400px;
   position: absolute;
-  left: 2215px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 /* Carousel titulo/parrafo 7 */
 
 .carousel1__titulo7{
   position: absolute;
-  left: 2560px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -397,13 +389,14 @@ color: black;
 }
 
 .carousel1__parrafo7{
+  width: 400px;
   position: absolute;
-  left: 2640px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 
@@ -411,7 +404,6 @@ color: black;
 
 .carousel1__titulo8{
   position: absolute;
-  left: 2985px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -422,20 +414,20 @@ color: black;
 }
 
 .carousel1__parrafo8{
+  width: 400px;
   position: absolute;
-  left: 3050px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 /* Carrousel titulo/parrafo 9 */
 
 .carousel1__titulo9{
   position: absolute;
-  left: 3405px;
   top: 74px;
   font-family: "Gilroy SemiBold";
   font-size: 30px;
@@ -446,13 +438,14 @@ color: black;
 }
 
 .carousel1__parrafo9{
+   width: 400px;
   position: absolute;
-  left: 3490px;
   top: 426px;
   font-family: "Gilroy SemiBold";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .carousel1__indicadores .glider-dot {
@@ -496,7 +489,7 @@ color: black;
 /* Seccion Tres */
 
 .sectionTres{
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -504,15 +497,15 @@ color: black;
 }
 
 .sectionTresImg img{
-    width: 520px;
-    height: 470px;
+    width: 420px;
+    height: 420px;
 }
 
 .sectionTresTexto{
-    width: 520px;
+    width: 420px;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 420px;
     justify-content: center;
 }
 
@@ -520,7 +513,7 @@ color: black;
 .sectionTresTexto h2{
     
     font-family: "Gilroy ExtraBold";
-    font-size: 72px;
+    font-size: 60px;
     line-height: 84px;
     color: #4A148C;
 }
@@ -538,7 +531,7 @@ color: black;
 /* Seccion Cuatro */
 
 .sectionCuatro{
-    margin-top: 50px;
+    margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -546,15 +539,15 @@ color: black;
 }
 
 .sectionCuatroImg img{
-    width: 520px;
-    height: 470px;
+    width: 420px;
+    height: 420px;
 }
 
 .sectionCuatroTexto{
-    width: 520px;
+    width: 420px;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 420px;
     justify-content: center;
 }
 
@@ -562,7 +555,7 @@ color: black;
 .sectionCuatroTexto h2{
     
     font-family: "Gilroy ExtraBold";
-    font-size: 72px;
+    font-size: 60px;
     line-height: 84px;
     color: #4A148C;
 }
@@ -579,7 +572,7 @@ color: black;
 /* Seccion Cinco */
 
 .sectionCinco{
-    margin-top: 50px;
+    margin-top: 200px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -587,15 +580,15 @@ color: black;
 }
 
 .sectionCincoImg img{
-    width: 520px;
-    height: 470px;
+    width: 420px;
+    height: 420px;
 }
 
 .sectionCincoTexto{
-    width: 520px;
+    width: 420px;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 420px;
     justify-content: center;
 }
 
@@ -603,7 +596,7 @@ color: black;
 .sectionCincoTexto h2{
     
     font-family: "Gilroy ExtraBold";
-    font-size: 72px;
+    font-size: 60px;
     line-height: 84px;
     color: #4A148C;
 }
@@ -622,14 +615,14 @@ color: black;
 .sectionSeis{
   margin-top: 200px;
   background-image: url(Imagenes/imagenPrincipal.jpeg);
-  height: 780px;
+  height: 650px;
   background-size: cover;
   position: relative;
   overflow: hidden;
 }
 
 .sectionSeisOlas{
-  height: 200px;
+  height: 100px;
 }
 
 .waveinvertidaseis{
@@ -645,10 +638,10 @@ animation: wave 10s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
 background: url(Imagenes/olaBlanca.png) repeat-x; 
 position: absolute;
 width: 6400px;
-height: 200px;
+height: 150px;
 animation: oladeabajo6 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;  
 animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-top: 650px;
+top: 530px;
 }
 
 
@@ -663,7 +656,7 @@ top: 650px;
 .sectionSeisTexto{
   width: 100%;
   position: absolute;
-  top: 375px;
+  top: 250px;
 }
 
 .sectionSeisTexto h3{
@@ -672,6 +665,7 @@ top: 650px;
   line-height: 101.5%;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .sectionSeisTexto p{
@@ -680,6 +674,7 @@ top: 650px;
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .sectionSeisBoton{
@@ -690,6 +685,7 @@ top: 650px;
 }
 
 .sectionSeisBoton button{
+  border-color: transparent;
   z-index: 150;
   font-family: "Gilroy SemiBold";
   font-size: 24px;
@@ -698,7 +694,7 @@ top: 650px;
   background: linear-gradient(90deg, #4A148C 99.99%, #FC6B5F 100%);
   color: #FFFFFF;
   border-radius: 30px;
-  width: 376px;
+  width: 300px;
   height: 70px;
 }
 
@@ -714,12 +710,7 @@ top: 650px;
   margin-bottom: 100px;
 }
 
-.my-auto{
-  background-color:rgb(245,244,246);
-}
-
 .card{
-  background-color:rgb(245,244,246);
   height: 200px;
   justify-content: center;
   border: none;
@@ -806,7 +797,7 @@ transform: translateX(0);
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 350px;
   height: 500px;
   text-align: center;
   background: #FFFFFF;
@@ -818,12 +809,12 @@ transform: translateX(0);
 }
 
 .sectionOchoUno h3, .sectionOchoDos h3, .sectionOchoTres h3{
-  width: 364px;
+  width: 300px;
   height: 85px; 
   background: #4A148C;
   border-radius: 21px;
   font-family: "Gilroy ExtraBold";
-  font-size: 48px;
+  font-size: 35px;
   line-height: 56px;
   text-align: center;
   color: #FFFFFF;
@@ -834,7 +825,7 @@ transform: translateX(0);
 }
 
 .sectionOchoUno p, .sectionOchoDos p, .sectionOchoTres p{
-  width: 356px;
+  width: 300px;
   height: 237px;
   display: flex;
   flex-direction: column;
@@ -843,7 +834,7 @@ transform: translateX(0);
   font-family: SF UI Display;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 144.84%;
   text-align: center;
   color: #4A148C;
@@ -869,7 +860,7 @@ transform: translateX(0);
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
   font-family: "Gilroy";
 }
@@ -879,7 +870,7 @@ transform: translateX(0);
 }
 .sectionOchoUno:hover, .sectionOchoDos:hover, .sectionOchoTres:hover{
   cursor: pointer;
-  width: 420px;
+  width: 400px;
   height: 544px;
   background: #F90C65;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -893,15 +884,15 @@ transform: translateX(0);
 .sectionNueve{
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: space-between;
-  width: 90%;
   height: 658px;
   background: #4A148C;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   margin-bottom: 300px;
+
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .sectionNueveUno{
@@ -915,7 +906,7 @@ transform: translateX(0);
 .sectionNueveUno h3{
   margin-top: 40px;
   font-family: "Gilroy ExtraBold";
-  font-size: 80px;
+  font-size: 70px;
   line-height: 98.8%;
   /* or 79px */
   letter-spacing: 0.005em;
@@ -925,14 +916,14 @@ transform: translateX(0);
 
 .sectionNueveUno p{
   font-family: "Gilroy SemiBold";
-  font-size: 36px;
+  font-size: 24px;
   line-height: 42px;
   color: #FFFFFF;
 }
 
 .sectionNueveUno button{
   background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
-  width: 371.12px;
+  width: 250px;
   height: 65.59px;
   border-radius: 30px;
   margin-bottom: 40px;
@@ -942,6 +933,8 @@ transform: translateX(0);
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
+
+  border-color: transparent;
 }
 
 .sectionNueveDos{
@@ -997,7 +990,7 @@ transform: translateX(0);
   background-image: url(Imagenes/Formulario-final.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 900px;
+  height: 720px;
 }
 
 .sectionDiezFormularioConteiner{
@@ -1008,7 +1001,7 @@ transform: translateX(0);
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  height: 700px;
+  height: 550px;
   border-radius: 20px;
 }
 
@@ -1017,6 +1010,7 @@ transform: translateX(0);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 
 .sectionDiezFormularioTitulo h3{
@@ -1028,9 +1022,9 @@ transform: translateX(0);
 }
 
 .sectionDiezFormularioInput input{
-  width: 510px;
+  width: 450px;
   height: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   background: #F5F5F5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1131,6 +1125,7 @@ transform: translateX(0);
 }
 
 /* Media */
+
 
 
 @media (max-width: 1196px) {
