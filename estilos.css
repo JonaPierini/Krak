@@ -992,7 +992,143 @@ transform: translateX(0);
   color: #FFFFFF;
 }
 
+/* Section Diez */
+.sectionDiez{
+  background-image: url(Imagenes/Formulario-final.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
 
+.sectionDiezFormularioConteiner{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.sectionDiezFormulario{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sectionDiezFormularioTitulo h3{
+  font-family: "Gilroy ExtraBold";
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #E91E63;
+}
+
+.sectionDiezFormularioInput input{
+  width: 510px;
+  height: 45px;
+  margin-bottom: 10px;
+
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius:  4px;
+  border-color: transparent;
+
+}
+
+.sectionDiezFormularioCheckbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+
+
+}
+
+.sectionDiezFormularioCheckboxInput{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  width: 510px;
+  margin-bottom: 20px;
+}
+
+
+.sectionDiezFormularioCheckboxTextarea textarea{
+  width: 510px;
+  height: 120px;
+  resize: none;
+}
+
+.sectionDiezFormularioCheckboxTextarea button{
+  margin-top: 20px;
+  width: 280px;
+  height: 35px; 
+  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+  border-color: transparent;
+  border-radius: 20px;
+
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
+/* Footer */
+
+.footerConteiner{
+  height: 210px;
+  background-color: #4A148C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.footerLogo img{
+  width: 150px;
+  height: 120px;
+}
+
+.footerTexto h3 {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footerTexto p{
+  
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
 
 /* Media */
 
