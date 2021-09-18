@@ -20,17 +20,13 @@
 
 .imagenLogo{
     width: 120px;
-    height: 105px;
+    height: 100px;
 }
+
 
 .navbar {
   width: 100%;
   margin-top: 0;
-  height: 70px;
-  padding: 20px;
-  z-index: 1000;
-  margin-top: 20px;
-  
 }
 
 .navbar-nav{
@@ -46,7 +42,9 @@
     font-size: 18px
 }
 
-
+.botonContacto{
+  text-align: center;
+}
 
 .tituloHeaderDiv{
   position: absolute;
@@ -226,11 +224,18 @@ color: black;
 
 /* Carousel titulo/parrafo 1 */
 
+.carousel1__elementoUno{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .carousel1__titulo1{
   position: absolute;
   top: 74px;
+  
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -238,7 +243,6 @@ color: black;
 }
 
 .carousel1__parrafo1{
-  width: 400px;
   position: absolute;
   top: 426px;
   color: #FFFFFF;
@@ -251,23 +255,27 @@ color: black;
 }
 
 /* Carousel titulo/parrafo 2 */
+.carousel1__elementoDos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel1__titulo2{
   position: absolute;
-  width: 396px;
-  height: 99px;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-align: left;
 }
 
 .carousel1__parrafo2{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   color: #FFFFFF;
   font-size: 16px;
@@ -278,14 +286,20 @@ color: black;
 }
 
 /* Carrousel titulo/parrafo 3 */
+.carousel1__elementoTres{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel1__titulo3{
   position: absolute;
   top: 74px;
+
   color: #FFFFFF;
   text-align: left;
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -293,9 +307,9 @@ color: black;
 }
 
 .carousel1__parrafo3{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -304,23 +318,28 @@ color: black;
 }
 
 /* Carrousel titulo/parrafo 4 */
+.carousel__elementoCuatro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel1__titulo4{
   position: absolute;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 
-
 .carousel1__parrafo4{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -329,11 +348,18 @@ color: black;
 }
 
 /* Carrousel titulo/parrafo 5 */
+.carousel1__elementoCinco{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .carousel1__titulo5{
   position: absolute;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -341,9 +367,9 @@ color: black;
 }
 
 .carousel1__parrafo5{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -353,11 +379,17 @@ color: black;
 }
 
 /* Carrousel titulo/parrafo 6 */
+.carousel1__elementoSeis{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .carousel1__titulo6{
   position: absolute;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -365,9 +397,9 @@ color: black;
 }
 
 .carousel1__parrafo6{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -376,12 +408,18 @@ color: black;
 }
 
 /* Carousel titulo/parrafo 7 */
+.carousel1__elementoSiete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel1__titulo7{
   position: absolute;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -389,9 +427,9 @@ color: black;
 }
 
 .carousel1__parrafo7{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -401,12 +439,18 @@ color: black;
 
 
 /* Carousel titulo/parrafo 8 */
+.carousel1__elementoOcho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel1__titulo8{
   position: absolute;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
+  font-size: 25px;
   line-height: 110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -414,9 +458,9 @@ color: black;
 }
 
 .carousel1__parrafo8{
-  width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -425,22 +469,28 @@ color: black;
 }
 
 /* Carrousel titulo/parrafo 9 */
+.carousel1__elementoNueve{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel1__titulo9{
   position: absolute;
   top: 74px;
+
   font-family: "Gilroy SemiBold";
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 25px;
+  line-height:  110.3%;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
 }
 
 .carousel1__parrafo9{
-   width: 400px;
   position: absolute;
   top: 426px;
+
   font-family: "Gilroy SemiBold";
   font-size: 16px;
   line-height: 28px;
@@ -1124,23 +1174,44 @@ transform: translateX(0);
   color: #FFFFFF;
 }
 
+
+
+
 /* Media */
 
+/* Carrousel - 1 */
+
+@media (max-width: 1290px){
+  .carousel1__titulo1, .carousel1__titulo2, .carousel1__titulo3, .carousel1__titulo4, .carousel1__titulo5, .carousel1__titulo6, .carousel1__titulo7, .carousel1__titulo8, .carousel1__titulo9{
+      font-size: 20px;
+      text-align: center;
+  }
+}
 
 
 @media (max-width: 1196px) {
     /* Header */
     .tituloHeaderDiv{
-        top: 300px
+        top: 250px
     }
     .tituloHeader{
         color: #ffffff;
         font-size: 60px;
         line-height: 60px;
     }
+    /* Carrousel - 1 */
+    .carousel1__elemento{
+      height: 350px;
+    }
+    
+    .carousel1__elemento img{
+      height: 350px;
+  
+    }
+    .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
+     top: 300px;
 }
-
-
+}
 
 @media(max-width: 1040px){
     /* SeccionCuatroTexto */
@@ -1149,15 +1220,15 @@ transform: translateX(0);
     }
 }
 
-@media(max-width: 991px){
+@media(max-width: 992px){
     /* Header */
     .botonContacto{
-        background-color: transparent;
+        background-color: transparent !important;
         border-radius:0px;
         width: none;
-        text-align: start;
-        margin-left: 0px;
-        margin-right:0px;
+        text-align: start !important;
+        margin-left: 0px !important;
+        margin-right:0px !important;
     }
 
     .parrafoHeader{
@@ -1165,6 +1236,30 @@ transform: translateX(0);
         font-size: 25px;
         line-height: 25px
     }
+
+    .navbarTotal{
+      position: sticky !important;
+    }
+
+    /* Carrousel - 1 */
+    .carousel1__elemento{
+      height: 300px;
+    }
+    
+    .carousel1__elemento img{
+      height: 300px;
+  
+    }
+
+    .carousel1__titulo1, .carousel1__titulo2, .carousel1__titulo3, .carousel1__titulo4, .carousel1__titulo5, .carousel1__titulo6, .carousel1__titulo7, .carousel1__titulo8, .carousel1__titulo9{
+        font-size: 15px;
+        text-align: center;
+    }
+    .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
+      font-size: 12px;
+      text-align: center;
+      top: 250px;
+}
 }
 
 @media(max-width: 576px){

@@ -13,12 +13,6 @@ document.addEventListener("scroll", function(){
 	let posobj = animacion.getBoundingClientRect().top;
 
 	// Barra
-	color.style.position = "fixed";
-	color.style.width="100%";
-	color.style.height="90px";
-	color.style.zIndex="1000";
-
-	
 
 	if (posobj>-3) {
 		color.classList.remove("arribaola");
@@ -33,11 +27,19 @@ document.addEventListener("scroll", function(){
 		color.classList.remove("abajoola");
 		color.setAttribute("class", "arribaola");
 		color.style.backgroundColor = "#4A148C";
+		color.style.position = "fixed";
+		color.style.width="100%";
+		color.style.zIndex="1000";
+		color.style.height = "100px"
+		color.style.display = "flex"
+		color.style.alignItems = "center"
 
 		let colorBoton = document.getElementById("colorContacto")
 		colorBoton.style.backgroundColor = "#F90C65"
 	}
 })
+
+
 // Carrousel Uno
 window.addEventListener('load', function(){
 	new Glider(document.querySelector('.carousel1__lista'), {
