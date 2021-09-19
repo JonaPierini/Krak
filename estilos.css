@@ -1310,6 +1310,10 @@ transform: translateX(0);
       position: sticky !important;
     }
 
+    .imagenEdificioDiv{
+      display: none;
+    }
+    
     /* Carrousel - 1 */
     .carousel1__elemento{
       height: 300px;
