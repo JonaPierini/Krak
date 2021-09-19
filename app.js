@@ -30,14 +30,30 @@ document.addEventListener("scroll", function(){
 		color.style.position = "fixed";
 		color.style.width="100%";
 		color.style.zIndex="1000";
-		color.style.height = "100px"
 		color.style.display = "flex"
 		color.style.alignItems = "center"
 
 		let colorBoton = document.getElementById("colorContacto")
 		colorBoton.style.backgroundColor = "#F90C65"
 	}
+
+	var ancho = window.innerWidth;
+	if(ancho < 992){
+		color.style.position = "static"
+	}
+
+	else{
+		color.style.position = "fixed"
+		color.style.width="100%";
+		color.style.zIndex="1000";
+		
+	
+	}
+
 })
+
+
+
 
 
 // Carrousel Uno

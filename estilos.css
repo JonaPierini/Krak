@@ -42,6 +42,12 @@
     font-size: 18px
 }
 
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
+
 .botonContacto{
   text-align: center;
 }
@@ -663,7 +669,7 @@ color: black;
 /* Seccion Seis */
 
 .sectionSeis{
-  margin-top: 200px;
+  margin-top: 150px;
   background-image: url(Imagenes/imagenPrincipal.jpeg);
   height: 650px;
   background-size: cover;
@@ -855,6 +861,7 @@ transform: translateX(0);
   border-radius: 20px;
   transition: all 0.5s ease;
  
+  margin: 10px;
 
 }
 
@@ -934,19 +941,18 @@ transform: translateX(0);
 .sectionNueve{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 658px;
   background: #4A148C;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 
   margin-left: 15px;
   margin-right: 15px;
 }
 
 .sectionNueveUno{
-  margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -988,7 +994,6 @@ transform: translateX(0);
 }
 
 .sectionNueveDos{
-  margin-right: 40px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1012,7 +1017,6 @@ transform: translateX(0);
 }
 
 .sectionNueveTres{
-  margin-right: 40px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1152,11 +1156,20 @@ transform: translateX(0);
   height: 120px;
 }
 
+.footerTexto{
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .footerTexto h3 {
   font-family: SF UI Display;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   text-align: center;
   color: #FFFFFF;
@@ -1167,14 +1180,22 @@ transform: translateX(0);
   font-family: SF UI Display;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 21px;
   text-align: center;
 
   color: #FFFFFF;
 }
 
+.footerRedes img{
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
 
+.footerRedes a{
+  text-decoration: none;
+}
 
 
 /* Media */
@@ -1210,7 +1231,15 @@ transform: translateX(0);
     }
     .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
      top: 300px;
-}
+    }
+    /* Section Nueve */
+    .sectionNueve {
+      justify-content: center;
+      height: max-content;
+      padding: 40px;
+
+    }
+
 }
 
 @media(max-width: 1040px){
@@ -1231,6 +1260,14 @@ transform: translateX(0);
         margin-right:0px !important;
     }
 
+    .tituloHeaderDiv{
+      top: 300px;
+    }
+
+    .parrafoHeaderDiv{
+      top: 450px;
+    }
+    
     .parrafoHeader{
         color: #ffffff;
         font-size: 25px;
@@ -1259,7 +1296,84 @@ transform: translateX(0);
       font-size: 12px;
       text-align: center;
       top: 250px;
+    }
 }
+
+@media(max-width: 860px){
+    /* Seccion Nueve */
+    .sectionNueveUno {
+      align-items: center;
+      text-align: center;
+  }
+  
+  .sectionNueveUno h3 {
+    text-align: center;
+  }
+  
+  .sectionNueveTres {
+    text-align: center;
+  
+  }
+
+  .sectionNueveDos {
+    text-align: center;
+}
+
+}
+
+
+@media(max-width: 790px){
+  .sectionSeisBoton button{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+  }
+   /* Seccion Seis */
+   .sectionSeisTexto h3 {
+    font-size: 75px;
+   
+  }
+  .sectionSeisTexto p{
+    font-size: 18px;
+  }
+
+  .sectionSeisBoton button {
+    width: 200px; 
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 655px){
+  /* Seccion Nueve */
+  .sectionNueveDos {
+    text-align: center;
+  }
+}
+
+@media(max-width: 640px){
+
+  /* Header */
+  .tituloHeader {
+    font-size: 50px;
+  }
+
+  .parrafoHeader{
+    font-size: 20px;
+  }
+
+   .botonEmpecemosDiv{
+     top: 560px;  
+   }
+
+   .botonEmpecemos{
+     line-height: 30px;
+   }
+
+   .sectionDiez{
+     display: none;
+   }
+
 }
 
 @media(max-width: 576px){
@@ -1273,6 +1387,14 @@ transform: translateX(0);
         top: 400px;
         font-size: 30px;
         
+    }
+
+    .sectionSeis {
+      height: 680px;
+    }
+
+    .sectionSeisTexto {
+      top: 200px;
     }
 }
 
