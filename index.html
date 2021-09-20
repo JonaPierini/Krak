@@ -23,7 +23,13 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-      <header>
+      <div id="loader">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      
+      <header class="d-none">
         <div class="header" id="arriba">
           <div class="navbartotal" id="navbaranimacion">
             <nav class="navbar navbar-expand-lg navbar-light" >
@@ -73,8 +79,8 @@
         </div>
     </header>
     <!-- Section Una -->
-    
-    <div class="carousel1">
+  <main class="d-none">
+   <div class="carousel1">
       <div class="carousel1__contenedor">
         <button aria-label="Anterior1" class="carousel1__anterior"></button>
         <div class="carousel1__lista">
@@ -389,8 +395,9 @@
     <!-- Seccion WhatsApp -->
     
      <a href="https://api.whatsapp.com/send?phone=1137051114" class="btn-wsp" target="_blank"><img src="Imagenes/icon-whatsapp.png" alt="" height="35px"></i></a>
+    </main>
     <!-- Seccion Footer -->
-    <footer>
+    <footer class="d-none">
       <div class="footerConteiner">
           <div class="footerLogo">
             <a href="#arriba">

@@ -1,3 +1,12 @@
+//
+window.addEventListener("load", function(){
+var elem = document.getElementById("loader");
+elem.parentNode.removeChild(elem);
+document.querySelectorAll("header,main,footer").forEach(function(item) {
+item.classList.remove('d-none');
+});  
+});
+
 //Header
 let colorBoton = document.getElementById("colorContacto")
 	colorBoton.style.backgroundColor = "#4A148C";

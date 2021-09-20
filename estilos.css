@@ -11,6 +11,20 @@
 @font-face {font-family: "Gilroy SemiBold"; src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot"); src: url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.woff") format("woff"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000833a3a58fb083c44b9de42c2ff0a2.svg#Gilroy SemiBold") format("svg"); }
 @font-face {font-family: "SF UI Display"; src: url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.eot"); src: url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.woff") format("woff"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/17bcb89611a026bb2c02b1e38e1a3a90.svg#SF UI Display") format("svg"); }
 
+/* Sppiner */
+
+
+#loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+}
+
+
+
 .header{
     background-image: url(Imagenes/imagenPrincipal.jpeg);
     height: 750px;
