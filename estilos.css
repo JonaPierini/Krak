@@ -23,8 +23,6 @@
   background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);;
 }
 
-
-
 .header{
     background-image: url(Imagenes/imagenPrincipal.jpeg);
     height: 750px;
@@ -33,7 +31,7 @@
 }
 
 .imagenLogo{
-    width: 120px;
+    width: 100px;
     height: 100px;
 }
 
@@ -41,6 +39,7 @@
 .navbar {
   width: 100%;
   margin-top: 0;
+  height: 100px;
 }
 
 .navbar-nav{
@@ -190,7 +189,7 @@
 /* Section Uno */
 
 .carousel1{
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .carousel1__contenedor {
@@ -537,23 +536,24 @@ color: black;
 
 /* Seccion Dos */
 .sectionDos{
-    width: 100%;
-    margin-top: 200px; 
+    margin-top: 150px; 
     display: flex;
     align-items: center;
     justify-content: center;  
 }
 
 .sectionDos p{
-    width: 1320px;
     font-family: "Gilroy ExtraBold";
-    font-size: 48px;
+    font-size: 40px;
     line-height: 56px;
     text-align: center;
     background: linear-gradient(88.4deg, #4A148C 8.51%, #E91E63 71.81%, #FC6B5F 89.11%);
     -webkit-background-clip: text;
     color: transparent;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 75%;
 }
 
 /* Seccion Tres */
@@ -584,7 +584,7 @@ color: black;
     
     font-family: "Gilroy ExtraBold";
     font-size: 60px;
-    line-height: 84px;
+    line-height: 65px;
     color: #4A148C;
 }
 
@@ -626,7 +626,7 @@ color: black;
     
     font-family: "Gilroy ExtraBold";
     font-size: 60px;
-    line-height: 84px;
+    line-height: 65px;
     color: #4A148C;
 }
 
@@ -642,7 +642,7 @@ color: black;
 /* Seccion Cinco */
 
 .sectionCinco{
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -667,7 +667,7 @@ color: black;
     
     font-family: "Gilroy ExtraBold";
     font-size: 60px;
-    line-height: 84px;
+    line-height: 65px;
     color: #4A148C;
 }
 
@@ -858,7 +858,7 @@ transform: translateX(0);
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 
 .sectionOchoUno, .sectionOchoDos, .sectionOchoTres{
@@ -1053,6 +1053,10 @@ transform: translateX(0);
   color: #FFFFFF;
 }
 
+.sectionNueveDosUnoLogo, .sectionNueveDosDosLogo, .sectionNueveTresUnoLogo, .sectionNueveTresDosLogo{
+  list-style: none;
+}
+
 /* Section Diez */
 .sectionDiez{
   background-image: url(Imagenes/Formulario-final.jpg);
@@ -1070,6 +1074,8 @@ transform: translateX(0);
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
+
+  padding-top: 15px;
 }
 
 .sectionDiezFormulario{
@@ -1091,8 +1097,8 @@ transform: translateX(0);
   width: 400px;
   font-family: "Gilroy ExtraBold";
   font-size: 30px;
-  line-height: 47px;
-  text-align: justify;
+  line-height: 35px;
+  text-align: center;
   color: #E91E63;
 }
 
@@ -1140,6 +1146,13 @@ transform: translateX(0);
   width: 400px;
   height: 120px;
   resize: none;
+
+  margin-bottom: 20px;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 4px;
+  border-color: transparent;
+
 }
 
 .sectionDiezFormularioCheckboxTextarea button{
@@ -1160,6 +1173,11 @@ transform: translateX(0);
   text-align: center;
   color: #FFFFFF;
 }
+
+
+
+
+/* WhatsApp */
 
 .btn-wsp {
   position: fixed;
@@ -1307,13 +1325,17 @@ transform: translateX(0);
     }
 
     .tituloHeaderDiv{
-      top: 300px;
+      top: 250px;
     }
 
     .parrafoHeaderDiv{
-      top: 450px;
+      top: 400px;
     }
     
+    .botonEmpecemosDiv{
+      top: 500px;
+    }
+
     .parrafoHeader{
         color: #ffffff;
         font-size: 25px;
@@ -1322,6 +1344,22 @@ transform: translateX(0);
 
     .navbarTotal{
       position: sticky !important;
+    }
+
+    /* Color Hamburguesa */
+
+    .navbar{
+      background: linear-gradient(
+        90deg, #c41ee9 0%, #9243dd 98.65%);
+      padding: 0%;
+      height: 80px;
+    }
+    .container-fluid{
+      background: linear-gradient(
+        90deg, #630862 0%, #3d206f 98.65%)
+    }
+    .imagenLogo{
+      height: 80px;
     }
 
     .imagenEdificioDiv{
@@ -1384,6 +1422,12 @@ transform: translateX(0);
 
 
 @media(max-width: 790px){
+  /* Seccion Dos */
+  .sectionDos p{
+    font-size: 35px;
+    line-height: 45px;
+  }
+
   .sectionSeisBoton button{
     width: 250px;
     height: 50px;
@@ -1403,6 +1447,11 @@ transform: translateX(0);
     height: 40px;
     font-size: 18px;
   }
+
+  .nav-link{
+    font-size: 15px;
+  }
+
 }
 
 @media(max-width: 655px){
@@ -1448,9 +1497,12 @@ transform: translateX(0);
         line-height:40px;
     }
     .parrafoHeaderDiv{
-        top: 400px;
-        font-size: 30px;
-        
+        top: 350px;
+        font-size: 30px; 
+    }
+
+    .botonEmpecemosDiv{
+      top: 450px;
     }
 
     .sectionSeis {
@@ -1462,10 +1514,4 @@ transform: translateX(0);
     }
 }
 
-@media(max-width:380px){
-    /* Header */
-    .parrafoHeaderDiv{
-        top: 450px
-    }
-}
 

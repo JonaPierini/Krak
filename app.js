@@ -62,9 +62,6 @@ document.addEventListener("scroll", function(){
 })
 
 
-
-
-
 // Carrousel Uno
 window.addEventListener('load', function(){
 	new Glider(document.querySelector('.carousel1__lista'), {
