@@ -680,6 +680,11 @@ color: black;
 
 }
 
+/* Seccion Media 576px */
+.sectionMedia{
+  display: none;
+}
+
 /* Seccion Seis */
 
 .sectionSeis{
@@ -1062,7 +1067,7 @@ transform: translateX(0);
   background-image: url(Imagenes/Formulario-final.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 720px;
+  height: 735px;
 }
 
 .sectionDiezFormularioConteiner{
@@ -1157,7 +1162,7 @@ transform: translateX(0);
 
 .sectionDiezFormularioCheckboxTextarea button{
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 280px;
   height: 35px; 
   background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
@@ -1198,7 +1203,7 @@ transform: translateX(0);
 /* Footer */
 
 .footerConteiner{
-  height: 230px;
+  height: 200px;
   background-color: #4A148C;
   display: flex;
   flex-wrap: wrap;
@@ -1385,6 +1390,12 @@ transform: translateX(0);
       text-align: center;
       top: 250px;
     }
+
+     /* Seccion Diez */
+    .sectionDiez{
+      height: 750px;
+    }
+
 }
 
 @media(max-width: 860px){
@@ -1408,17 +1419,17 @@ transform: translateX(0);
 }
 
 /* Section Footer */
-.footerLogo{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
+  .footerLogo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 
-.footerTexto{
-  width: 100%;
-}
+  .footerTexto{
+    width: 100%;
+  }
 
-}
+  }
 
 
 @media(max-width: 790px){
@@ -1482,10 +1493,12 @@ transform: translateX(0);
 
    /* Section Siete */
    .sectionSieteClientesTitulo h2 {
-     font-size: 60px;
+     font-size: 45px;
+     line-height: 50px;
    }
    .sectionOchoTitulo{
-     font-size: 60px;
+     font-size: 45px;
+     line-height: 50px;
    }
 }
 
@@ -1493,7 +1506,7 @@ transform: translateX(0);
     /* Header */
     .tituloHeader{
         color: #ffffff;
-        font-size: 40px;
+        font-size: 45px;
         line-height:40px;
     }
     .parrafoHeaderDiv{
@@ -1504,6 +1517,7 @@ transform: translateX(0);
     .botonEmpecemosDiv{
       top: 450px;
     }
+    /* Section Seis */
 
     .sectionSeis {
       height: 680px;
@@ -1511,6 +1525,103 @@ transform: translateX(0);
 
     .sectionSeisTexto {
       top: 200px;
+    }
+
+    .sectionSeisTexto h3 {
+      font-size: 45px;
+  }
+    
+    /* SECCION TRES - CUATRO - CINCO */
+    .sectionTres, .sectionCuatro, .sectionCinco{
+      display: none;
+    }
+
+    .sectionMedia{
+      display: block;
+      margin-top: 150px;
+    }
+
+    .divImagenIconoUno{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .imagenIconoUno{
+      width: 300;
+      height: 300px;
+    }
+
+    .accordion-item{
+      border-color: transparent !important;
+      margin-bottom: 150px;
+    }
+    
+    .divBotonIconoUno{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .accordion-button{
+      width: 30px;
+    }
+    .accordion-button:focus {
+        border-color: transparent !important;  
+        box-shadow: none !important; 
+    }
+
+    .accordion-button:not(.collapsed) {
+      color: transparent !important;
+      background-color: transparent !important;
+      box-shadow: none !important;
+  }
+
+
+   /* Seccion Diez */
+    .sectionDiezFormularioConteiner{
+      width: 350px;
+    }
+
+    .sectionDiezFormularioTitulo{
+      margin-bottom: 10px;
+     
+    }
+    .sectionDiezFormularioTitulo h3{
+      font-size: 24px;
+      width: 320px;
+   
+    }
+        
+    .sectionDiezFormularioInput input{
+      width: 320px;
+    }
+
+    .sectionDiezFormularioCheckboxInput{
+      width: 320px;
+    }
+
+    .sectionDiezFormularioCheckboxTextarea textarea{
+      width: 320px;
+    }
+
+    /* Footer */
+    .footerConteiner{
+      height: max-content;
+    }
+
+    @media(max-width: 446px){
+      .carousel1__elemento img{
+        height: 430px;
+      }
+  }
+
+    @media(max-width: 440px){
+        .parrafoHeader{
+          display: none;
+        }
     }
 }
 
