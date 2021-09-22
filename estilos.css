@@ -1455,6 +1455,12 @@ transform: translateX(0);
     text-align: center;
 }
 
+/* Section Nueve */
+
+.sectionNueveUno{
+  order: 3;
+}
+
 /* Section Footer */
   .footerConteiner{
     height: max-content;
