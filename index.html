@@ -257,7 +257,38 @@
           <h3>¡No pierdas más tiempo, Krak!</h3>
           <p>Descárgate ahora nuestra guía y conoce todo lo que tenes que saber para vender <br> tu proyecto inmobiliario desde cero con nuestro método.</p>
           <div class="sectionSeisBoton">
-            <button>Descarga la guia</button>
+            <button class="sectionSeisBotonBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Conocenos</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Descargá la Guia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <input value="Nombre completo*" type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <input value="Email*" type="email" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <input value="Telefono*" type="tel" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                        <input value="Empresa*" type="text" class="form-control" id="recipient-name">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn">Descarga</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
       <div class="waveseis"></div>

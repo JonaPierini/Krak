@@ -759,7 +759,7 @@ top: 530px;
   justify-content: center;
 }
 
-.sectionSeisBoton button{
+.sectionSeisBotonBtn{
   border-color: transparent;
   z-index: 150;
   font-family: "Gilroy SemiBold";
@@ -772,6 +772,43 @@ top: 530px;
   width: 300px;
   height: 70px;
 }
+
+/* Modalllllllll */
+
+.modal-title{
+  font-family: "Gilroy ExtraBold";
+  font-size: 30px;
+  line-height: 25px;
+  color: #4A148C;
+}
+
+.modal-content{
+  background-color: #FFFFFF;
+  border-radius: 38px;
+}
+
+.mb-3{
+  background: #F5F5F5 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.mb-3 input{
+  color: #4A148C;
+}
+
+.modal-footer{
+  justify-content: center;
+}
+
+.btn{
+  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-family: "Gilroy";
+  width: 150px;
+}
+
 
 /* Seccition Siete - Clientes */
   
@@ -1442,11 +1479,6 @@ transform: translateX(0);
     line-height: 45px;
   }
 
-  .sectionSeisBoton button{
-    width: 250px;
-    height: 50px;
-    font-size: 18px;
-  }
    /* Seccion Seis */
    .sectionSeisTexto h3 {
     font-size: 75px;
@@ -1456,7 +1488,7 @@ transform: translateX(0);
     font-size: 18px;
   }
 
-  .sectionSeisBoton button {
+  .sectionSeisBotonBtn {
     width: 200px; 
     height: 40px;
     font-size: 18px;
@@ -1510,7 +1542,7 @@ transform: translateX(0);
     .tituloHeader{
         color: #ffffff;
         font-size: 45px;
-        line-height:40px;
+        line-height:45px;
     }
     .parrafoHeaderDiv{
         top: 350px;
