@@ -1248,7 +1248,7 @@ animation: wave 7s linear infinite;
 /* Footer */
 
 .footerConteiner{
-  height: 100px;
+  height: 70px;
   background-color: #4A148C;
   display: flex;
   flex-wrap: wrap;
@@ -1475,7 +1475,7 @@ footer p{
 
 /* Section Footer */
   .footerConteiner{
-    height: max-content;
+    height: min-content;
   } 
   .footerLogo{
     display: flex;
