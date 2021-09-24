@@ -1093,12 +1093,20 @@ transform: translateX(0);
 }
 
 /* Section Diez */
+
+/* Section Diez */
 .sectionDiez{
   background-image: url(Imagenes/Formulario-final.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 735px;
-}
+   margin-top: 150px;
+   position: relative;
+  overflow: hidden;
+  }
+  
+  
+
 
 .sectionDiezFormularioConteiner{
   display: flex;
@@ -1208,8 +1216,14 @@ transform: translateX(0);
   text-align: center;
   color: #FFFFFF;
 }
-
-
+.waveinvertidadiez{
+  background: url(Imagenes/olaBlancainvertida.png) repeat-x; 
+  position: absolute;
+  width: 6000px;
+  height: 200px;
+animation: wave 7s linear infinite;
+ top: -10%;
+  }
 
 
 /* WhatsApp */
