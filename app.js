@@ -64,20 +64,17 @@ document.addEventListener("scroll", function(){
 
 // Carrousel Uno
 window.addEventListener('load', function(){
-	new Glider(document.querySelector('.carousel1__lista'), {
+	new Glider(document.querySelector('.carousel1__contenedor'), {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		draggable:true,
 		dots: '.carousel1__indicadores',
-		arrows: {
-			prev: '.carousel1__anterior',
-			next: '.carousel1__siguiente'
-		},
 		responsive: [
 			{
 			  // screens greater than >= 775px
 			  breakpoint: 450,
 			  settings: {
+				dots: '.carousel1__indicadores',
 				// Set to `auto` and provide item width to adjust to viewport
 				slidesToShow: 2,
 				slidesToScroll: 2
@@ -86,6 +83,7 @@ window.addEventListener('load', function(){
 			  // screens greater than >= 1024px
 			  breakpoint: 800,
 			  settings: {
+				dots: '.carousel1__indicadores',
 				slidesToShow: 4,
 				slidesToScroll: 4
 			  }

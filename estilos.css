@@ -217,17 +217,10 @@ color: black;
 	opacity: 100%;
 }
 
-
-.carousel1__lista {
-	overflow: hidden;
-}
-
 .carousel1__elemento {
 	text-align: center;
   margin: 10px;
 }
-
-
 
 .carousel1__elemento{
   height: 489px;
