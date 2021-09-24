@@ -1248,7 +1248,7 @@ animation: wave 7s linear infinite;
 /* Footer */
 
 .footerConteiner{
-  height: 120px;
+  height: 100px;
   background-color: #4A148C;
   display: flex;
   flex-wrap: wrap;
@@ -1284,18 +1284,6 @@ animation: wave 7s linear infinite;
   color: #FFFFFF;
 }
 
-.footerTexto p{
-  
-  font-family: SF UI Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 21px;
-  text-align: center;
-
-  color: #FFFFFF;
-}
-
 .footerRedes{
   order: 3;
   padding-bottom: 10px;
@@ -1311,6 +1299,18 @@ animation: wave 7s linear infinite;
   text-decoration: none;
 }
 
+footer p{
+  color: #fff;
+  background-color: #4A148C;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+}
 
 /* Media */
 
@@ -1691,6 +1691,10 @@ animation: wave 7s linear infinite;
     @media(max-width: 446px){
       .carousel1__elemento img{
         height: 430px;
+      }
+
+      .footerTexto h3{
+        font-size: 14px;
       }
       
   }
