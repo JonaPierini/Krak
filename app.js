@@ -11,7 +11,6 @@ item.classList.remove('d-none');
 let colorBoton = document.getElementById("colorContacto")
 	colorBoton.style.backgroundColor = "#4A148C";
 	colorBoton.style.borderRadius = "20px";
-	colorBoton.style.width = "150px";
 	colorBoton.style.textAlign = "center";
 	colorBoton.style.marginLeft = "20px"
 	colorBoton.style.marginRight = "20px"
