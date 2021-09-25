@@ -1053,6 +1053,10 @@ transform: translateX(0);
   border-color: transparent;
 }
 
+.sectionNueveUnoBotonMedia{
+  display: none;
+}
+
 .sectionNueveDos{
   display: flex;
   flex-wrap: wrap;
@@ -1475,6 +1479,31 @@ footer p{
     text-align: center;
 }
 
+.sectionNueveUnoBoton{
+  display: none;
+}
+
+.sectionNueveUnoBotonMedia{
+  margin-top: 20px;
+  display: block;
+}
+
+.sectionNueveUnoBotonMedia button{
+  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+  width: 250px;
+  height: 65.59px;
+  border-radius: 30px;
+  margin-bottom: 40px;
+
+  font-family: "Gilroy SemiBold";
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+
+  border-color: transparent;
+}
+
 /* Section Footer */
   .footerConteiner{
     height: min-content;
@@ -1683,6 +1712,7 @@ footer p{
       font-size: 18px;
     }
 
+  
    /* Seccion Diez */
     .sectionDiezFormularioConteiner{
       width: 350px;
