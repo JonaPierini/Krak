@@ -110,22 +110,27 @@ items.forEach((el) => {
 
 
 // Animación Aparece
-function aparecescroll(){
-	let html = document.getElementsByTagName("html")[0]; 
-	let elementoaparece = document.getElementsByClassName("aparece3"); 
-	document.addEventListener("wheel", function(){
-	let  topelem = html.scrollTop;
-	for(i=0; i<elementoaparece.length; i++){
-	
-	let topelementoaparece = elementoaparece[i].offsetTop;
-	if (topelem>topelementoaparece-600) {
+let anochoDos = window.innerWidth;
+if(anochoDos > 900){
+	function aparecescroll(){
+		let html = document.getElementsByTagName("html")[0]; 
+		let elementoaparece = document.getElementsByClassName("aparece3"); 
+		document.addEventListener("wheel", function(){
+		let  topelem = html.scrollTop;
+		for(i=0; i<elementoaparece.length; i++){
 		
-		elementoaparece[i].style.opacity = 1;
-		console.log(elementoaparece);
-	}
+		let topelementoaparece = elementoaparece[i].offsetTop;
+		if (topelem>topelementoaparece-600) {
+			
+			elementoaparece[i].style.opacity = 1;
+			console.log(elementoaparece);
+		}
+			
+			
+		}
+		})
+		}
+
 		
-		
-	}
-	})
-	}
 	aparecescroll();
+}
