@@ -553,6 +553,11 @@ color: black;
     width: 75%;
 }
 
+/* SectionTres/Cuatro/Cinco Aparece */
+.aparece3{
+  opacity: 0;
+  transition: all 0.5s ;
+}
 /* Seccion Tres */
 
 .sectionTres{
