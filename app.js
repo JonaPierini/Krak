@@ -111,7 +111,8 @@ items.forEach((el) => {
 
 // Animación Aparece
 let anochoDos = window.innerWidth;
-if(anochoDos > 900){
+
+	console.log(anochoDos)
 	function aparecescroll(){
 		let html = document.getElementsByTagName("html")[0]; 
 		let elementoaparece = document.getElementsByClassName("aparece3"); 
@@ -131,6 +132,6 @@ if(anochoDos > 900){
 		})
 		}
 
-		
-	aparecescroll();
-}
+aparecescroll();
+	
+
