@@ -1042,12 +1042,14 @@ transform: translateX(0);
   color: #FFFFFF;
 }
 
-.sectionNueveUno button{
+.sectionNueveUnoBoton {
   background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
   width: 250px;
-  height: 65.59px;
+
   border-radius: 30px;
   margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   font-family: "Gilroy SemiBold";
   font-size: 24px;
@@ -1056,6 +1058,11 @@ transform: translateX(0);
   color: #FFFFFF;
 
   border-color: transparent;
+}
+
+.sectionNueveUnoBoton a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .sectionNueveUnoBotonMedia{
@@ -1112,7 +1119,6 @@ transform: translateX(0);
   list-style: none;
 }
 
-/* Section Diez */
 
 /* Section Diez */
 .sectionDiez{
@@ -1263,6 +1269,11 @@ animation: wave 7s linear infinite;
   box-shadow: 0px 1px 10px rgba (0, 0, 0, 0.3);
   z-index: 100;
 }
+
+.wsspMedia{
+  display: none;
+}
+
 
 /* Footer */
 
@@ -1493,12 +1504,14 @@ footer p{
   display: block;
 }
 
-.sectionNueveUnoBotonMedia button{
+.sectionNueveUnoBotonMedia {
   background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
-  width: 250px;
-  height: 65.59px;
+
   border-radius: 30px;
   margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
 
   font-family: "Gilroy SemiBold";
   font-size: 24px;
@@ -1507,6 +1520,11 @@ footer p{
   color: #FFFFFF;
 
   border-color: transparent;
+}
+
+.sectionNueveUnoBotonMedia a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* Section Footer */
@@ -1717,6 +1735,50 @@ footer p{
       font-size: 18px;
     }
 
+
+ /* Section Media/WhatsApp */
+ .btn-wsp{
+   display: none;
+ }
+
+ .wsspMedia img{
+   margin-left: 20px;
+   margin-right: 20px;
+   width: 15px;
+   height: 15px;
+ }
+ .wsspMedia a{
+  background-color: rgb(43,54,64);
+  color: #FFFFFF;
+  padding-left: 10px;
+  font-family: "SF UI Display";
+  font-size: 12px;
+  margin-right: 10px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+  height: 25px;
+ }
+  .wsspMedia{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    position: fixed; 
+    bottom: 0px;
+    color: #fff;
+    z-index: 100;
+    justify-content: flex-end;
+    align-items: center;
+}
+ 
+  .boton-wsp-media{
+    text-decoration:none;
+    color:black;
+  }
   
    /* Seccion Diez */
     .sectionDiezFormularioConteiner{
