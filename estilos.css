@@ -1631,6 +1631,12 @@ footer p{
       width: 20px;
      
     }
+
+    .carousel1__elemento img{
+      height: 350px;
+      width: 300px;
+    }
+
     /* Section Seis */
 
     .sectionSeis {
@@ -1813,10 +1819,6 @@ footer p{
     }
 
     @media(max-width: 446px){
-      .carousel1__elemento img{
-        height: 430px;
-      }
-
       .footerTexto h3{
         font-size: 14px;
       }
