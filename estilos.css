@@ -35,6 +35,9 @@
     height: 100px;
 }
 
+.navbar-light .navbar-brand {
+  margin-left: 20px;
+}
 
 .navbar {
   width: 100%;
@@ -1430,6 +1433,11 @@ footer p{
       text-align: center !important;
     }
 
+    .navbar-light .navbar-brand {
+      margin-left: 0px;
+    }
+
+
     /* Color Hamburguesa */
 
     .navbar{
@@ -1465,7 +1473,7 @@ footer p{
     .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
       font-size: 15px;
       text-align: center;
-      top: 250px;
+      top: 300px;
     }
 
      /* Seccion Diez */
@@ -1546,10 +1554,18 @@ footer p{
 
 @media(max-width: 790px){
   /* Seccion Dos */
-  .sectionDos p{
-    font-size: 35px;
-    line-height: 45px;
-  }
+  .sectionDos {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+  .sectionDos p {
+    font-size: 24px;
+    line-height: 30px;
+    width: 350px;
+}
 
    /* Seccion Seis */
    .sectionSeisTexto h3 {
@@ -1730,6 +1746,8 @@ footer p{
 
     .sectionNueveUno h3 {
       font-size: 50px;
+      margin-bottom: 30px;
+      line-height: 60px;
   }
 
     .sectionNueveDosUnoLogo img, .sectionNueveDosDosLogo img, .sectionNueveTresUnoLogo img, .sectionNueveTresDosLogo img{
