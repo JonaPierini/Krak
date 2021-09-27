@@ -1471,9 +1471,9 @@ footer p{
         text-align: center;
     }
     .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
-      font-size: 15px;
+      font-size: 12px;
       text-align: center;
-      top: 300px;
+      top: 250px;
     }
 
      /* Seccion Diez */
@@ -1651,6 +1651,10 @@ footer p{
     .carousel1__elemento img{
       height: 350px;
       width: 300px;
+    }
+
+    .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
+      top: 300px;
     }
 
     /* Section Seis */
