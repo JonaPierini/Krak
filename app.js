@@ -116,7 +116,7 @@ let anochoDos = window.innerWidth;
 	function aparecescroll(){
 		let html = document.getElementsByTagName("html")[0]; 
 		let elementoaparece = document.getElementsByClassName("aparece3"); 
-		document.addEventListener("wheel", function(){
+		document.addEventListener("scroll", function(){
 		let  topelem = html.scrollTop;
 		for(i=0; i<elementoaparece.length; i++){
 		
