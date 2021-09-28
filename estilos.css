@@ -1770,43 +1770,56 @@ footer p{
  }
 
  .wsspMedia img{
-   margin-left: 20px;
-  
    width: 15px;
    height: 15px;
+   margin-right: 4px;
  }
- .wsspMedia a{
-  background-color: rgb(43,54,64);
-  color: #FFFFFF;
-  padding-left: 10px;
-  font-family: "SF UI Display";
-  font-size: 12px;
-  margin-right: 10px;
-  border-radius: 8px;
 
+ .wsspMedia{
+  background-color: #4A148C;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  position: fixed; 
+  bottom: 0px;
+  color: #fff;
+  z-index: 100;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wsspMediaMasInfo{
+  width: 50%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.wsspMediaWhatsApp{
+  width: 50%;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+ .wsspMedia a{
+  background: linear-gradient(90deg, #E91E63 0%, #FC6B5F 98.65%);
+  color: #FFFFFF;
+  font-family: "SF UI Display";
+  font-size: 13px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
-  width: 120px;
   justify-content: center;
   height: 25px;
  }
-  .wsspMedia{
-    background-color: transparent;
-    height: 40px;
-    width: 100%;
-    display: flex;
-    position: fixed; 
-    bottom: 0px;
-    color: #fff;
-    z-index: 100;
-    justify-content: flex-end;
-    align-items: center;
+  
+ .boton-wsp-media-info{
+   text-decoration: none;
+ }
+.boton-wsp-media{
+  text-decoration:none;
+  color:black;
 }
- 
-  .boton-wsp-media{
-    text-decoration:none;
-    color:black;
-  }
+
   
    /* Seccion Diez */
     .sectionDiezFormularioConteiner{
@@ -1838,6 +1851,10 @@ footer p{
     /* Footer */
     .footerConteiner{
       height: max-content;
+    }
+
+    footer p{
+      height: 60px;
     }
 
     @media(max-width: 446px){
