@@ -847,10 +847,26 @@ top: 530px;
   border-radius: 38px;
 }
 
+.modal-header{
+  justify-content: center;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .mb-3{
   background: #F5F5F5 !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  width: 400px;
 }
 
 .mb-3 input{
@@ -1725,6 +1741,16 @@ footer p{
     .sectionSeisTexto h3 {
       font-size: 45px;
   }
+
+  /* Section Modal */
+  .mb-3{
+    width: 330px;
+  }
+
+.modal-content {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
     /* Section Media */
     
