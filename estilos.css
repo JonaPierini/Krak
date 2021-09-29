@@ -130,6 +130,9 @@
     border-color: transparent;
 }
 
+.botonEmpecemos:hover{
+  color: #4A148C;
+}
 
 .imagenEdificio{
     height: 550px;
@@ -885,6 +888,10 @@ top: 530px;
   width: 150px;
 }
 
+.btn:hover{
+  color: #FFFFFF;
+}
+
 .modal-dialog{
   height: 100vh;
   display: flex;
@@ -1523,10 +1530,7 @@ footer p{
     }
    
 
-    .imagenEdificioDiv{
-      display: none;
-    }
-    
+        
     /* Carrousel - 1 */
     .carousel1__elemento{
       height: 300px;
@@ -1624,6 +1628,13 @@ footer p{
 
 
 @media(max-width: 790px){
+  .imagenEdificio {
+    height: 400px;
+    position: absolute;
+    left: -150px;
+    top: 350px;
+}
+
   /* Seccion Dos */
   .sectionDos {
     margin-top: 150px;
@@ -1660,6 +1671,7 @@ footer p{
 }
 
 @media(max-width: 655px){
+
   /* Seccion Nueve */
   .sectionNueveDos {
     text-align: center;
@@ -1703,16 +1715,26 @@ footer p{
         font-size: 45px;
         line-height:45px;
     }
-    .parrafoHeaderDiv{
-        top: 350px;
-        font-size: 30px; 
+    .parrafoHeader{
+      display: none;
     }
 
     .botonEmpecemosDiv{
       top: 450px;
     }
 
+    .imagenEdificio {
+      height: 300px;
+      position: absolute;
+      left: -150px;
+      top: 450px;
+  }
+
     /* Section carrousel uno */
+
+    .carousel1 {
+      margin-top: 100px;
+  }
 
     .carousel1__indicadores .glider-dot {
       width: 20px;
@@ -1732,6 +1754,7 @@ footer p{
 
     .sectionSeis {
       height: 680px;
+      margin-top: 0px;
     }
 
     .sectionSeisTexto {
@@ -1776,9 +1799,19 @@ footer p{
       height: 300px;
     }
 
+    .textoIconoUno, .textoIconoDos, .textoIconoTres{
+      margin-top: 30px;
+    }
+
+    .textoIconoUno h2, .textoIconoDos h2, .textoIconoTres h2{
+      color: #4A148C;
+      text-align: center;
+      font-size: 35px;
+  }
+
     .accordion-item{
       border-color: transparent !important;
-      margin-bottom: 150px;
+      margin-bottom: 100px;
     }
     
     .divBotonIconoUno{
@@ -1808,10 +1841,6 @@ footer p{
     height: 50px;
   }
 
-  .accordion-body h2{
-      color: #4A148C;
-      text-align: center;
-  }
     /* Seccion Nueve */
     .sectionNueveDosUno{
      padding: 0;
@@ -1858,7 +1887,7 @@ footer p{
 
  .wsspMedia{
   background-color: #4A148C;
-  height: 40px;
+  height: 60px;
   width: 100%;
   display: flex;
   position: fixed; 
@@ -1890,7 +1919,7 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 25px;
+  height: 35px;
  }
   
  .boton-wsp-media-info{
@@ -1904,7 +1933,7 @@ footer p{
   
    /* Seccion Diez */
     .sectionDiezFormularioConteiner{
-      width: 350px;
+      width: 335px;
     }
 
     .sectionDiezFormularioTitulo{
@@ -1945,11 +1974,6 @@ footer p{
       
   }
 
-    @media(max-width: 440px){
-        .parrafoHeader{
-          display: none;
-        }
-    }
 }
 
 
