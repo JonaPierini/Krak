@@ -1542,7 +1542,7 @@ footer p{
     }
 
     .carousel1__titulo1, .carousel1__titulo2, .carousel1__titulo3, .carousel1__titulo4, .carousel1__titulo5, .carousel1__titulo6, .carousel1__titulo7, .carousel1__titulo8, .carousel1__titulo9{
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
     }
     .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
@@ -1644,7 +1644,7 @@ footer p{
     width: 100%;
 }
   .sectionDos p {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     width: 350px;
 }
@@ -1746,8 +1746,14 @@ footer p{
       width: 300px;
     }
 
+    .carousel1__titulo1, .carousel1__titulo2, .carousel1__titulo3, .carousel1__titulo4, .carousel1__titulo5, .carousel1__titulo6, .carousel1__titulo7, .carousel1__titulo8, .carousel1__titulo9{
+      font-size: 18px;
+      text-align: left;
+    }
+
     .carousel1__parrafo1, .carousel1__parrafo2, .carousel1__parrafo3, .carousel1__parrafo4, .carousel1__parrafo5, .carousel1__parrafo6, .carousel1__parrafo7, .carousel1__parrafo8, .carousel1__parrafo9{
       top: 300px;
+      font-size: 14px;
     }
 
     /* Section Seis */
