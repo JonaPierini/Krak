@@ -1899,7 +1899,7 @@ footer p{
   position: fixed; 
   bottom: 0px;
   color: #fff;
-  z-index: 100;
+  z-index: 1000;
   justify-content: space-evenly;
   align-items: center;
 }
