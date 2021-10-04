@@ -1003,7 +1003,7 @@ transform: translateX(0);
   height: 500px;
   text-align: center;
   background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.20);
   border-radius: 20px;
   transition: all 0.5s ease;
  
@@ -1410,8 +1410,8 @@ animation: wave 7s linear infinite;
 }
 
 .footerRedes img{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-left: 5px;
 }
 
@@ -1988,15 +1988,15 @@ footer p{
     }
         
     .sectionDiezFormularioInput input{
-      width: 320px;
+      width: 300px;
     }
 
     .sectionDiezFormularioCheckboxInput{
-      width: 320px;
+      width: 300px;
     }
 
     .sectionDiezFormularioCheckboxTextarea textarea{
-      width: 320px;
+      width: 300px;
     }
 
     /* Footer */
