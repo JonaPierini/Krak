@@ -605,6 +605,7 @@ color: black;
     font-size: 40px;
     line-height: 56px;
     text-align: center;
+    color: #4A148C;
     background: linear-gradient(88.4deg, #4A148C 8.51%, #E91E63 71.81%, #FC6B5F 89.11%);
     -webkit-background-clip: text;
     background-clip: text;
