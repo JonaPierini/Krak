@@ -607,7 +607,8 @@ color: black;
     text-align: center;
     background: linear-gradient(88.4deg, #4A148C 8.51%, #E91E63 71.81%, #FC6B5F 89.11%);
     -webkit-background-clip: text;
-    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -1216,7 +1217,6 @@ transform: translateX(0);
   background-size: cover;
   background-repeat: no-repeat;
   height: 735px;
-   margin-top: 150px;
    position: relative;
   overflow: hidden;
   }
@@ -1493,7 +1493,7 @@ footer p{
     /* Section Nueve */
     .sectionNueve {
       justify-content: center;
-      height: max-content;
+      height: min-content;
       padding: 40px;
 
     }
@@ -1566,11 +1566,11 @@ footer p{
         
     /* Carrousel - 1 */
     .carousel1__elemento{
-      height: 300px;
+      height: 400px;
     }
     
     .carousel1__elemento img{
-      height: 300px;
+      height: 400px;
   
     }
 
@@ -1680,6 +1680,7 @@ footer p{
     font-size: 22px;
     line-height: 30px;
     width: 350px;
+    margin-bottom: 100px;
 }
 
    /* Seccion Seis */
@@ -1777,7 +1778,7 @@ footer p{
     }
 
     .carousel1__elemento img{
-      height: 350px;
+      height: 400px;
       width: 300px;
     }
 
@@ -1825,7 +1826,6 @@ footer p{
 
     .sectionMedia{
       display: block;
-      margin-top: 150px;
     }
 
     .divImagenIconoUno{
@@ -1852,7 +1852,7 @@ footer p{
 
     .accordion-item{
       border-color: transparent !important;
-      margin-bottom: 100px;
+      margin-bottom: 20px;
     }
     
     .divBotonIconoUno{
@@ -2006,15 +2006,19 @@ footer p{
 
     footer p{
       height: 60px;
+      padding-bottom: 85px;
     }
 
-    @media(max-width: 446px){
+    
+  }
+
+  @media(max-width: 446px){
       .footerTexto h3{
         font-size: 14px;
       }
       
   }
 
-}
+
 
 

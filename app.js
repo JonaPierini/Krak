@@ -112,7 +112,7 @@ items.forEach((el) => {
 // Animación Aparece
 let anochoDos = window.innerWidth;
 
-	console.log(anochoDos)
+	
 	function aparecescroll(){
 		let html = document.getElementsByTagName("html")[0]; 
 		let elementoaparece = document.getElementsByClassName("aparece3"); 
@@ -124,7 +124,7 @@ let anochoDos = window.innerWidth;
 		if (topelem>topelementoaparece-600) {
 			
 			elementoaparece[i].style.opacity = 1;
-			console.log(elementoaparece);
+			
 		}
 			
 			
