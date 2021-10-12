@@ -594,7 +594,7 @@ color: black;
 
 /* Seccion Dos */
 .sectionDos{
-    margin-top: 100px; 
+    margin-top: 150px; 
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -1667,7 +1667,7 @@ footer p{
 
   /* Seccion Dos */
   .sectionDos {
-    margin-top: 150px;
+    margin-top: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
